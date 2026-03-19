@@ -9,15 +9,13 @@ public class CustomList {
         cities.add(city);
     }
 
-//    public boolean hasCity(City city) {
-//        return cities.contains(city);
-//    }
-public boolean hasCity(City city) {
-    return false;
-}
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
+
 
     public void deleteCity(City city) {
-        //cities.remove(city);
+        cities.remove(city);
     }
 
     public int countCities() {
